@@ -2,11 +2,10 @@ import requests
 from datetime import datetime
 
 ## Creation of user
-
 pixela_endpoint = "https://pixe.la/v1/users"
 
-USERNAME = "mihirsar"
-TOKEN = "ugr328t2bewuivbuvb"
+USERNAME = "USERNAME"
+TOKEN = "RANDOM TOKEN"
 GRAPH_ID = "graph1"
 
 user_params = {
@@ -31,7 +30,7 @@ def create_graph():
 
     graph_config = {
     "id": GRAPH_ID,
-    "name": "SuryaNamaskar",
+    "name": "ACTIVITY_TO_TRACK",
     "unit": "reps",
     "type": "int",
     "color": "momiji", # momiji is red
